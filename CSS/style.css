@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+}
+.header h1 {
+    font-size: 3em;
+    padding: 10px;
+}
+.text-container {
+    display: none;
+    padding: 20px;
+    background: #740400;
+    text-align: center;
+    color: #CCC;
+}
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+}
+.player-hud {
+    padding: 20px;
+}
+.player-1-container {
+    flex: 1 0 1;
+}
+.img-container {
+    display: block;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+.img-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.heading-container {
+    padding: 20px;
+    display: block;
+    margin: 10px;
+}
+.heading-container h3 {
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.player-2-container {
+    flex: 1 0 1;
+}
+.player-btns {
+    display: none;
+}
+.time-container {
+    margin: 0 auto;
+    text-align: center;
+}
+.time-text {
+    margin: 0 auto;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.player-btn {
+    display: flex;
+    flex: 1;
+}
+.btn-container button {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    border: 0;
+    transition: .3s ease-in;
+}
+
+.btn-container button:hover {
+    opacity: .5;
+    transition: .3s ease-in;
+}
+#play-btn {
+    background: #044e08;
+}
+#stop-btn {
+    background: #4e0404;
+    display: none;
+}
+#clearScore {
+    background: #5d0735;
+}
+#rock-btn {
+    background: #616969;
+}
+#paper-btn {
+    background: #afb3b1;
+    color: #444;
+}
+#scissors-btn {
+    background: #3f3f41;
+}
+.scoreboard-container {
+    padding: 20px;
+    border: 2px solid #EEE;
+    margin: 10px;
+}
+.scoreboard-container h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.scoreboard-container ul li {
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+    font-size: 25px;
+    list-style: none;
+}
+@media screen and (max-width: 50em){
+    .container {
+        width: 100%;
+    }
+}

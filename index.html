@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rock Paper Scissors Game</h1>
+            <p>Instructions: Click a button to choose rock paper scissors but, you must do it before 3 seconds. Click the play button to begin!</p>
+        </div>
+        <div class="text-container">
+           
+        </div>
+        <div class="game-container">
+            <div class="player-1-container">
+                <div id="player-1-score" class="player-hud">
+                    <h1>Player 1: Score: 0</h1>
+                </div>
+                <div class="img-container">
+                    <img src="./Images/paper.png" alt="" id="player1-icon">
+                </div>
+                <div class="heading-container">
+                    <h3 id="player-1-heading">Paper</h3>
+                </div>
+            </div>
+            <div class="player-2-container">
+                <div id="player-2-score" class="player-hud">
+                    <h1>Player 2: Score: 0</h1>
+                </div>
+                <div class="img-container">
+                    <img src="./Images/scissors.png" alt="" id="player2-icon">
+                </div>
+                <div class="heading-container">
+                        <h3 id="player-2-heading">Scissors</h3>
+                </div>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button id="play-btn">Play</button>
+            <button id="stop-btn">Stop</button>
+            <div class="player-btns">
+                <button id="rock-btn">Rock</button>
+                <button id="paper-btn">Paper</button>
+                <button id="scissors-btn">Scissors</button>
+            </div>
+            <button id="clearScore">Clear Score Board</button>
+        </div>
+        <div class="scoreboard-container">
+            <h2>ScoreBoard</h2>
+            <ul>
+                <li id="highest-score">Highest Score: 000</li>
+                <li id="player1-highest">Player 1 Highest Score: 000</li>
+                <li id="player2-highest">Player 2 Highest Score: 000</li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./JS/script.js"></script>
+</html>
