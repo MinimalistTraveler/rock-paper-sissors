@@ -10,7 +10,7 @@
 
 ## Bugs
 
-- Player 2 Scoreboard doesn't update during the game. You have to refresh in order for it to
+- Player 2 Scoreboard doesn't update during the game. You have to refresh in order for it to update properly.
 
 ### Notes
 
