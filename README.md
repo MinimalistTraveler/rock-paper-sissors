@@ -14,4 +14,4 @@
 
 ### Notes
 
-- I do not own rock paper sissor pictures. This project was only for fun and personal use and wasn't ment to be used commercially. Credit goes to the authors. I would put there names down but, this project is about a year and a half old and I can't remember the author names.
+- I do not own rock paper scissor pictures. This project was only for fun and personal use and wasn't ment to be used commercially. Credit goes to the authors. I would put there names down but, this project is about a year and a half old and I can't remember the author names.
