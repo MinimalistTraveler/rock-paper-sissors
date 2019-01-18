@@ -1,4 +1,4 @@
-# Rock Paper Sissors 2017
+# Rock Paper Scissors 2017
 
 - This is an old project I decided to put on github for archival reasons. I will probably redo this later on using a framework such as react or vue js later on. In the meantime...
 
